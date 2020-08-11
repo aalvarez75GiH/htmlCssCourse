@@ -97,8 +97,112 @@ nav li a:hover{
 /* ----------------------------Benefits Section */
 
 .benefits{
-  width:200px;
-  height: 200px;
+  width:100%;
+  height: 400px;
   background-color: bisque;
+  border: 2px black;
 }
+
+.benefits .container{
+  width:100%;
+  height: 400px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.benefit1{
+  width:138px;
+  height: 113px;
+  background-color: blue;
+  
+}
+.benefit2{
+  width:118px;
+  height: 98px;
+  background-color: green;
+  
+}
+.benefit3{
+  width:122px;
+  height: 72px;
+  background-color: grey;
+  
+}
+
+.img_benefit img{
+  text-align: center;
+  width: 100%;
+}
+
+.container h4{
+  font-size: 13px;
+}
+.container h5{
+  font-size: 13px;
+}
+/* ----------------------------Menciones */
+.mention_container{
+  width: 100%;
+  height: 50px;
+  
+}
+.mention_container h2{
+ font-size: 30px; 
+ text-align: center;
+}
+
+.menciones{
+  margin-top:0;
+  width:100%;
+  height: 350px;
+  background-color:var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mencion{
+  display: flex;
+  flex-direction: column;
+  width:250px;
+  height: 220px;
+  background-color: var(--white-color);
+  margin: 5px;
+  /* border: 1px solid var(--black-color); */
+  box-shadow: 0 0 3px;
+}
+.mencion img{
+  width: 100%;
+}
+
+.mencion h1{
+  margin-left: 5px;
+  font-size: 17px;
+}
+
+.mencion p{
+  margin-left: 5px;
+  font-size: 12px;
+}
+/* ----------------------------Footer */
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+  height: 100px;
+  background-color: #313337;
+}
+
+footer a{
+  color: white;
+
+}
+
+
+
+
+
+
 
