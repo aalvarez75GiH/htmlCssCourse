@@ -16,4 +16,9 @@
         padding: 4%;
     
       }
+
+      .benefits{
+          display: inherit;
+
+    }
 }
