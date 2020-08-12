@@ -17,8 +17,27 @@
     
       }
 
-      .benefits{
+    .benefits{
           display: inherit;
 
+    }
+
+    .mentions{
+        display: inherit;
+    }
+
+    .footer{
+        display: inherit;
+    }
+
+    footer .terminos{
+        margin-left: 4%;
+        font-size: var(--normal);
+        color: white;
+    }
+    footer .contacto{
+        margin-left: 45%;
+        font-size: var(--normal);
+        color: white;
     }
 }

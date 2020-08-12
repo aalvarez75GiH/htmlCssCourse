@@ -112,93 +112,48 @@ hr{
 /* ----------------------------Benefits Section */
 
 .benefits{
-  width:100%;
-  height: 400px;
-  background-color: bisque;
-  border: 2px black;
+ display: flex;
+ padding: 10%;
 }
 
-.benefits .container{
-  width:100%;
-  height: 400px;
-  background-color: #FFFFFF;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.benefit1{
-  width:138px;
-  height: 113px;
-  background-color: blue;
-  
-}
-.benefit2{
-  width:118px;
-  height: 98px;
-  background-color: green;
-  
-}
-.benefit3{
-  width:122px;
-  height: 72px;
-  background-color: grey;
-  
-}
-
-.img_benefit img{
+.benefit{
   text-align: center;
-  width: 100%;
+  padding: 20px;
 }
 
-.container h4{
-  font-size: 13px;
+.text_benefit{
+  text-align: justify;
 }
-.container h5{
-  font-size: 13px;
+
+.benefit img{
+  max-height: 100px;
 }
+
 /* ----------------------------Menciones */
-.mention_container{
-  width: 100%;
-  height: 50px;
-  
+h2.mentions_tittle{
+  text-align: center;
+  font-size: 24px;
 }
-.mention_container h2{
- font-size: 30px; 
- text-align: center;
+.mentions{
+  display: flex;
+  padding: 5%;
 }
 
-.menciones{
-  margin-top:0;
-  width:100%;
-  height: 350px;
-  background-color:var(--white-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.mention{
+  padding: var(--space);
 }
-.mencion{
-  display: flex;
-  flex-direction: column;
-  width:250px;
-  height: 220px;
-  background-color: var(--white-color);
-  margin: 5px;
-  /* border: 1px solid var(--black-color); */
-  box-shadow: 0 0 3px;
+.mention_content{
+  box-shadow: 0px 0 2px 1px #e6e5e9;
 }
-.mencion img{
+
+.mention img{
   width: 100%;
 }
 
-.mencion h1{
-  margin-left: 5px;
-  font-size: 17px;
+.mention .text{
+  padding: var(--space);
 }
 
-.mencion p{
-  margin-left: 5px;
-  font-size: 12px;
-}
 /* ----------------------------Footer */
 
 footer{
@@ -209,12 +164,6 @@ footer{
   height: 100px;
   background-color: #313337;
 }
-
-/* footer a{
-  margin-right: 500px;
-  font-size: var(--normal);
-  color: white;
-} */
 
 footer .terminos{
   margin-left: 20px;
