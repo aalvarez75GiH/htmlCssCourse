@@ -8,6 +8,7 @@
   --space:10px;
   /* Tipografia */
   --normal:12px;
+  /* Box shadow */
   --box:0 0 1px #c1bcbc;
   
   
@@ -152,6 +153,29 @@ h2.mentions_tittle{
 
 .mention .text{
   padding: var(--space);
+}
+
+/* ----------------------------Ventas */
+
+.modulo_pago{
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--space);
+
+}
+
+
+
+.modulo_pago_image{
+  margin: auto;
+  max-width:150px;
+  text-align: center;
+  
+}
+
+.container{
+  padding-top: 10%;
+  height: 350px;
 }
 
 /* ----------------------------Footer */
