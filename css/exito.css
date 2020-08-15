@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black-color);
+    text-align: center;
+    height: 100vh;
+}
+
+.mensaje_exito{
+    color: white;
+}
+  
+.ir_home{
+    color: white;
+}
+
+.ir_home a{
+    text-decoration: none;
+    color: white;
+}
+
+.ir_home a:hover{
+    text-decoration: underline;
+}
+ 
